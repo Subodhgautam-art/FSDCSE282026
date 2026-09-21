@@ -1,4 +1,4 @@
-/*const mypromise=new Promise((resolve,reject)=>{
+const mypromise=new Promise((resolve,reject)=>{
     let username="sub";
     let passward="1234";
     if(username=="sub" && passward=="1234"){
@@ -78,7 +78,7 @@ async function handlelogin(){
     console.log("Your OTP:", myotp);
     }
 }
-handlelogin(); */
+handlelogin(); 
 
 
 
